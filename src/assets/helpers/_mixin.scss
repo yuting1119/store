@@ -1,0 +1,11 @@
+@mixin phnoe {
+  @media (max-width: 768px) {
+    @content
+  }
+};
+
+@mixin burger {
+  @media (max-width: 500px) {
+    @content
+  }
+}
